@@ -166,6 +166,10 @@ section {
   padding: 1rem;
 }
 
+/* .nav-link:hover {
+  color: #a33d3b;
+} */
+
 /* Hero Section*/
 
 .hero {
@@ -658,13 +662,13 @@ button {
   }
 
   .nav-link {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: normal;
     transition: color 0.5s;
   }
 
   .nav-link:hover {
-    color: var(--yellow-solid);
+    color: #a33d3b;
   }
 
   /* Hero Section */
