@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Developer Project</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Start-->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header><!-- Header End-->
+
+    <!-- Hero Section -->
+    <main>
+        <div class="hero">
+            <div class="container">
+                <div class="main-heading">
+                    <h1 class="title">
+                        Landing Page Title
+                    </h1>
+                </div>
+        
+            </div>
+        </div>
+
+        <!-- Welcome Segment Start -->
+
+        <section id="welcome-segment" class="container"><!-- Welcome Segment Container-->
+            <h2 class="segment-title">Welcome...</h2>
+            <p class="segment-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque viverra. Dignissim enim sit amet venenatis urna. Tellus orci ac auctor augue mauris augue. Diam vel quam elementum pulvinar etiam. 
+            </p>
+        </section>
+
+        <!-- Servives Section-->
+
+        <section id="services" class="container">
+            <h2 class="services-section-title">Services</h2>
+            <p class="services-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="services-cards">
+                <!-- Service Card One-->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="images/clement-helardot-95YRwf6CNw8-unsplash 1.png" alt="">
+                    </div>
+                    <div class="service-card-content">
+                        <h3 class="service-card-title">
+                            Design & Development
+                        </h3>
+                        <p class="service-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <!-- Service Card Two-->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="images/clement-helardot-95YRwf6CNw8-unsplash 1(1).png" alt="">
+                    </div>
+                    <div class="service-card-content">
+                        <h3 class="service-card-title">
+                            Digital Marketing
+                        </h3>
+                        <p class="service-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <!-- Service Card Three-->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="images/clement-helardot-95YRwf6CNw8-unsplash 1(3).png" alt="">
+                    </div>
+                    <div class="service-card-content">
+                        <h3 class="service-card-title">
+                            Hosting & Maintenance
+                        </h3>
+                        <p class="service-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <!-- Service Card Four-->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="images/clement-helardot-95YRwf6CNw8-unsplash 1(2).png" alt="">
+                    </div>
+                    <div class="service-card-content">
+                        <h3 class="service-card-title">
+                            Ecommerce
+                        </h3>
+                        <p class="service-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+               
+            </div>
+        </section><!-- Services Section End-->
+
+        <!-- Testimonial Section Start -->
+        <section id="testimonials" class="container">
+            <div class="testimonials-wrapper">
+                <div class="testimonial-image">
+                    <img src="images/kalei-peek-ewQ3BT_ka3o-unsplash 1.png" alt="">
+                </div>
+                <div class="testimonial-content">
+                    <h3>There has to be a balance between your mental satisfaction and the financial needs of your company.</h3>
+                    <p>&dash; Person Name</p>
+                </div>
+            </div>
+        </section><!-- Testimonial Section End -->
+        
+        <!-- Contact Section Start -->
+        <section id="contact" class="container">
+                <div class="section-head">
+                    <h2 class="heading">Reach Out</h2>
+                    <p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <!-- Contact Form -->
+                    <form method="POST" action="data.php" class="form contact-form">
+                        <div class="form-wrap">
+                            <div class="form-group">
+                                
+                                <input type="text" id="name" placeholder="Name" required>
+                        
+                                <input type="email" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group-2">
+                                <label for="message">Tell us what you're looking for:</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Tell us what you're looking for:" required></textarea>
+                            </div>
+                            <button type="submit" class="contact-btn" name="submit" onclick="on_submit()">Send</button>
+                        </div>
+                    </form>
+        </section>
+    </main>
+    <footer id="footer">
+            <div class="footer-copyright container">
+                <p class="copyright paragraph">
+                     &copy; 2021.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
